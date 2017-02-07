@@ -1,0 +1,50 @@
+.logo {
+ height: 17px;
+ width: 35px;
+}
+
+.orange {
+  background-color: rgb(255, 90, 50);
+}
+
+.size {
+  height: 115px;
+  width: 215px;
+}
+
+.font {
+  font-size: 15px;
+  color: white;
+  font-family: arial, sans-serif;
+}
+
+.small-text {
+  font-size: 5px;
+  color: white;
+  font-family: arial, sans-serif;
+}
+
+.middle-text {
+  font-size: 10px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: rgb(105, 55, 50)
+}
+
+.middle-small {
+  font-size: 5px;
+  font-family: arial, sans-serif;
+  color: rgb(175, 125, 120)
+}
+
+.size-set {
+  height: 90px;
+  width: 160px;
+}
+
+.funny-price {
+  font-size: 5px;
+  color: rgb(105, 10, 120);
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+}
