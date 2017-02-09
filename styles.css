@@ -1,20 +1,52 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+.white {
+  background-color: white;
+  padding: 10px;
+}
+
 .logo {
  height: 17px;
  width: 35px;
+ padding-right: 10px;
+}
+
+.cart {
+  width: 19px;
+  height: 14px;
+}
+
+.right {
+  color: rgb(255, 90, 50);
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  padding-right: 10px;
+  float: right;
+  font-size: 10px;
 }
 
 .orange {
-  background-color: rgb(255, 90, 50);
+  background-color: rgb(255, 80, 200);
+  background: linear-gradient(to right, rgb(222, 28, 117), rgb(255, 80, 33))
 }
 
 .size {
-  height: 115px;
-  width: 215px;
+  height: 250px;
+  width: 425px;
 }
 
 .font {
-  font-size: 15px;
+  font-size: 30px;
   color: white;
+  font-family: arial, sans-serif;
+}
+
+.under-text {
+  font-size: 13px;
+  color: rgb(153, 40, 53);
   font-family: arial, sans-serif;
 }
 
@@ -34,12 +66,13 @@
 .middle-small {
   font-size: 5px;
   font-family: arial, sans-serif;
-  color: rgb(175, 125, 120)
+  color: rgb(175, 125, 120);
 }
 
 .size-set {
   height: 90px;
   width: 160px;
+  display: inline-block;
 }
 
 .funny-price {
@@ -47,4 +80,35 @@
   color: rgb(105, 10, 120);
   font-family: arial, sans-serif;
   text-decoration: underline;
+}
+
+.margin {
+  margin-top: 0px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.pad {
+  padding-left: 175px;
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
+.top-bar {
+  color: rgb(255, 90, 50);
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  padding-right: 10px;
+  font-size: 10px;
+}
+
+a:hover {
+  color: rgb(153, 40, 53);
+}
+
+.back-shoes {
+  font-family: arial, sans-serif;
+  color: white;
 }
