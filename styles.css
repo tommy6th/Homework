@@ -5,12 +5,12 @@ body {
 
 .white {
   background-color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .logo {
- height: 17px;
- width: 35px;
+ height: 25px;
+ width: 50px;
  padding-right: 10px;
 }
 
@@ -25,7 +25,16 @@ body {
   font-family: arial, sans-serif;
   padding-right: 10px;
   float: right;
-  font-size: 10px;
+  font-size: 14px;
+  padding-top: 12px;
+}
+
+.top-bar {
+  color: rgb(255, 90, 50);
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  padding-right: 10px;
+  font-size: 14px;
 }
 
 .orange {
@@ -36,28 +45,31 @@ body {
 .size {
   height: 250px;
   width: 425px;
+  float: lef
 }
 
 .font {
-  font-size: 30px;
+  font-size: 35px;
   color: white;
   font-family: arial, sans-serif;
+  margin-bottom: 0px;
 }
 
 .under-text {
   font-size: 13px;
   color: rgb(153, 40, 53);
   font-family: arial, sans-serif;
+  margin-top: 0px
 }
 
 .small-text {
-  font-size: 5px;
+  font-size: 15px;
   color: white;
   font-family: arial, sans-serif;
 }
 
 .middle-text {
-  font-size: 10px;
+  font-size: 25px;
   font-family: arial, sans-serif;
   font-weight: bold;
   color: rgb(105, 55, 50)
@@ -70,16 +82,17 @@ body {
 }
 
 .size-set {
-  height: 90px;
-  width: 160px;
-  display: inline-block;
+  height: 165px;
+  width: 275px;
+  padding-right: 50px;
 }
 
 .funny-price {
-  font-size: 5px;
-  color: rgb(105, 10, 120);
+  font-size: 25px;
+  color: white;
   font-family: arial, sans-serif;
-  text-decoration: underline;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .margin {
@@ -90,25 +103,40 @@ body {
   display: inline-block;
 }
 
+.text-pad {
+  padding-right: 75px;
+}
+
 .pad {
   padding-left: 175px;
   padding-top: 30px;
   padding-bottom: 75px;
+  float: left;
 }
 
-.top-bar {
-  color: rgb(255, 90, 50);
-  text-decoration: none;
-  font-family: arial, sans-serif;
-  padding-right: 10px;
-  font-size: 10px;
+.pad-low {
+  padding-top: 75px;
+  padding-left: 200px;
+  padding-bottom: 75px;
+}
+
+.pad-left {
+  padding-left: 20px;
 }
 
 a:hover {
-  color: rgb(153, 40, 53);
+  color: rgb(181, 48, 10);
+  border-bottom: 2px solid rgb(250, 190, 190);
 }
 
 .back-shoes {
   font-family: arial, sans-serif;
   color: white;
+}
+
+.mid-white {
+  background-color: white;
+  padding-left: 175px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
