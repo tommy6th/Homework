@@ -3,61 +3,112 @@
   <head>
     <title>Fresh Kicks</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet"/>
   </head>
+
   <body>
     <div class="white">
       <img class="logo" src="images/logo.jpg"/>
-      <a class="top-bar" href="">MEN</a>
-      <a class="top-bar" href="">WOMEN</a>
-      <a class="top-bar" href="">BOYS</a>
-      <a class="top-bar" href="">GIRLS</a>
-      <a class="top-bar" href="">CUSTOMIZE</a>
-      <a class="right" href="">Shopping Cart</a>
-      <img class="cart right" src="images/cart.jpg"/>
+      <a class="top-bar top" href="">MEN</a>
+      <a class="top-bar top" href="">WOMEN</a>
+      <a class="top-bar top" href="">BOYS</a>
+      <a class="top-bar top" href="">GIRLS</a>
+      <a class="top-bar top" href="">CUSTOMIZE</a>
+      <a class="right" href="">Shopping Cart (<span id="total">0</span>)</a>
+      <img class="cart" src="images/cart.jpg"/>
       <a class="right" href="">My Account</a>
       <a class="right" href="">Help</a>
     </div>
 
-    <section class="orange">
-      <div class="inline pad">
-       <p class="back-shoes">&#8592; Back To All Shoes</p>
-       <img class="size" src="images/shoe1.png"/>
+    <section class="orange overflow">
+      <div>
+        <p class="back-shoes">&#8592; Back To All Shoes</p>
       </div>
-        <p class="font inline">Quick Sneakers</p>
-        <p class="under-text">SPRING/SUMMER 2017</p>
-        <p class="small-text text-pad"> This is text describing the quick sneaker you see This is text describing the quick sneaker you see This is text describing the quick sneaker you see This is text describing the quick sneaker you see This is text describing the quick sneaker you see This is text describing the quick sneaker you see</p>
-        <p class="small-text">$120.00</p>
-        <a href="" class="funny-price">Buy Now!</a>
 
+      <div class="float pad">
+        <img class="size" src="images/shoe1.png"/>
+      </div>
+
+      <div>
+        <p class="font">Quick Sneakers</p>
+        <p class="under-text">SPRING/SUMMER 2017</p>
+        <p class="quick-text text-pad"> This is text describing the sneaker. This is text describing the sneaker. This is text describing the sneaker. This is text describing the sneaker. This is text describing the sneaker.</p>
+        <p class="small-text inline">$120.00</p>
+        <span class="inline" onclick="add()"><button class="button" onclick="addCart()" id="buy">BUY NOW!</button></span>
+      </div>
     </section>
-    <div class="mid-white">
-      <p class="middle-text">Exciting Topic</p>
-      <p class="middle-small">Content Here</p>
-      <p class="middle-text">Find Your Shoe Size & Fit</p>
-      <p class="middle-small">Content Here</p>
-      <p class="middle-text">What Our Customers Are Saying!</p>
-      <p class="middle-small">Don't take our word for it! Read what our customers are saying about this product. We guarantee you wont be dissapointed in your purchase!</p>
-      <p class="middle-text">Shop Recommended Shoes</p>
+
+    <div class="mid-white container">
+      <div class="click">
+        <span onclick="makeActive('#details', '#details-content')" id="details" class="active click-text">Product Details</span>
+        <span onclick="makeActive('#size', '#size-content')" id="size" class="click-text">Size & Fit</span>
+        <span onclick="makeActive('#reviews', '#reviews-content')" id="reviews" class="click-text click-right">Reviews</span>
+      </div>
+      <div id="details-content">
+        <p class="middle-text">Exciting Topic</p>
+        <p class="middle-small">Content Here</p>
+        <p class="middle-text">Exciting Topic</p>
+        <p class="middle-small">Content Here</p>
+        <p class="middle-text">Exciting Topic</p>
+        <p class="middle-small">Content Here</p>
+      </div>
+      <div id="size-content" class="hidden">
+        <p class="middle-text">Find Your Shoe Size & Fit</p>
+        <p class="middle-small">Content Here</p>
+        <p class="middle-text">Find Your Shoe Size & Fit</p>
+        <p class="middle-small">Content Here</p>
+        <p class="middle-text">Find Your Shoe Size & Fit</p>
+        <p class="middle-small">Content Here</p>
+      </div>
+      <div id="reviews-content" class="hidden">
+        <p class="middle-text">Exciting Topic</p>
+        <p class="middle-small">Content Here</p>
+        <p class="middle-text">Find Your Shoe Size & Fit</p>
+        <p class="middle-small">Content Here</p>
+        <p class="middle-text">What Our Customers Are Saying!</p>
+        <p class="middle-small">Don't take our word for it! Read what our customers are saying about this product. We guarantee you wont be dissapointed in your purchase!</p>
+      </div>
     </div>
+
+    <div class="shoprec-bod">
+      <center><p class="shoprec">Shop Recommended Shoes</p></center>
+    </div>
+
     <section class="orange pad-low">
       <div class="inline">
         <img class="size-set" src="images/shoe2.png"/>
         <p class="funny-price">Funny Sneakers</p>
         <p class="under-text">SPRING/SUMMER 2017</p>
       </div>
+
       <div class="inline pad-left">
         <img class="size-set" src="images/shoe3.png"/>
         <p class="funny-price">Funny Sneakers</p>
         <p class="under-text">SPRING/SUMMER 2017</p>
       </div>
+
       <div class="inline">
         <img class="size-set" src="images/shoe4.png"/>
         <p class="funny-price">Funny Sneakers</p>
         <p class="under-text">SPRING/SUMMER 2017</p>
       </div>
     </section>
+
     <div class="white">
-      <img class="logo" src="images/logo.jpg"/> <a class="funny-price" href="">Shipping</a> | <a class="funny-price" href="">Terms & Conditions</a> | <
+      <img class="logo" src="images/logo.jpg"/>
+      <a class="top-bar top" href="">MEN</a>
+      <a class="top-bar top" href="">WOMEN</a>
+      <a class="top-bar top" href="">BOYS</a>
+      <a class="top-bar top" href="">GIRLS</a>
+      <a class="top-bar top" href="">CUSTOMIZE</a>
+      <p class="llc bot" href="">&#169; Copyright 2017. Fresh Kicks, LLC.</p>
+      <p class="llc bot">|</p>
+      <a class="llc" href="">Terms & Conditions</a>
+      <p class="llc bot">|</p>
+      <a class="llc" href="">Shipping</a>
     </div>
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

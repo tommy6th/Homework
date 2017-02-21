@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
   margin: 0px;
 }
 
@@ -15,26 +15,53 @@ body {
 }
 
 .cart {
-  width: 19px;
-  height: 14px;
+  width: 20px;
+  height: 13px;
+  color: rgb(250, 150, 150);
+  text-decoration: none;
+  font-family: 'Jaldi', sans-serif;
+  padding-right: 5px;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.bot {
+  margin-top: 0px;
+}
+
+.llc {
+  color: rgb(175, 150, 150);
+  font-family: 'Jaldi', sans-serif;
+  padding-right: 10px;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 .right {
-  color: rgb(255, 90, 50);
+  color: rgb(250, 150, 150);
   text-decoration: none;
-  font-family: arial, sans-serif;
+  font-family: 'Jaldi', sans-serif;
   padding-right: 10px;
   float: right;
-  font-size: 14px;
-  padding-top: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 .top-bar {
   color: rgb(255, 90, 50);
   text-decoration: none;
-  font-family: arial, sans-serif;
-  padding-right: 10px;
-  font-size: 14px;
+  font-family: 'Jaldi', sans-serif;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  padding-bottom: 3px;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 .orange {
@@ -43,41 +70,57 @@ body {
 }
 
 .size {
-  height: 250px;
-  width: 425px;
-  float: lef
+  height: 285px;
+  width: 550px;
 }
 
 .font {
-  font-size: 35px;
+  font-size: 50px;
   color: white;
-  font-family: arial, sans-serif;
+  font-family: 'Jaldi', sans-serif;
   margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px
 }
 
 .under-text {
-  font-size: 13px;
-  color: rgb(153, 40, 53);
-  font-family: arial, sans-serif;
+  font-size: 17px;
+  color: rgb(150, 40, 60);
+  font-family: 'Jaldi', sans-serif;
   margin-top: 0px
 }
 
 .small-text {
   font-size: 15px;
   color: white;
-  font-family: arial, sans-serif;
+  font-family: 'Jaldi', sans-serif;
 }
 
 .middle-text {
   font-size: 25px;
-  font-family: arial, sans-serif;
+  font-family: 'Jaldi', sans-serif;
   font-weight: bold;
   color: rgb(105, 55, 50)
 }
 
+.shoprec-bod {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 0px;
+  background-color: rgb(255, 235, 235)
+}
+
+.shoprec {
+  font-size: 25px;
+  font-family: 'Jaldi', sans-serif;
+  font-weight: bold;
+  color: rgb(105, 55, 50);
+  margin: 0px;
+}
+
 .middle-small {
-  font-size: 5px;
-  font-family: arial, sans-serif;
+  font-size: 15px;
+  font-family: 'Jaldi', sans-serif;
   color: rgb(175, 125, 120);
 }
 
@@ -90,7 +133,7 @@ body {
 .funny-price {
   font-size: 25px;
   color: white;
-  font-family: arial, sans-serif;
+  font-family: 'Jaldi', sans-serif;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -104,14 +147,41 @@ body {
 }
 
 .text-pad {
-  padding-right: 75px;
+  margin-right: 225px;
+  margin-left: 775px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px dashed rgb(200, 55, 50);
+  border-bottom: 2px dashed rgb(200, 55, 50);
+}
+
+.quick-text {
+  font-size: 17px;
+  color: white;
+  font-family: 'Jaldi', sans-serif;
+}
+
+.button {
+  color: rgb(250, 70, 60);
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  background-color: white;
+  text-decoration: none;
+  font-family: 'Jaldi', sans-serif;
+  font-size: 17px;
+  border: 0px;
+  outline: none;
 }
 
 .pad {
   padding-left: 175px;
   padding-top: 30px;
   padding-bottom: 75px;
-  float: left;
+  padding-right: 50px;
 }
 
 .pad-low {
@@ -120,23 +190,67 @@ body {
   padding-bottom: 75px;
 }
 
+.hidden {
+  display: none;
+}
+
 .pad-left {
   padding-left: 20px;
 }
 
-a:hover {
+.top:hover {
   color: rgb(181, 48, 10);
   border-bottom: 2px solid rgb(250, 190, 190);
 }
 
 .back-shoes {
-  font-family: arial, sans-serif;
+  font-family: 'Jaldi', sans-serif;
   color: white;
+  margin-top: 0px;
+  margin-left: 175px;
+  margin-bottom: 5px;
+  padding-top: 40px;
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.float {
+  float: left;
+}
+
+.active {
+  color: rgb(181, 48, 10) !important;
+  border-bottom: 4px solid rgb(250, 190, 190);
+}
+
+.click {
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgb(250, 190, 190);
+}
+
+.click-text {
+  color: rgb(255, 90, 50);
+  text-decoration: none;
+  font-family: 'Jaldi', sans-serif;
+  padding-bottom: 1px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.click-right {
+  float: right;
 }
 
 .mid-white {
   background-color: white;
-  padding-left: 175px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 40px;
+}
+
+.container {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
 }
